@@ -8,6 +8,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { CustomFormComponent } from './genaric/custom-form/custom-form.component';
 import { FormControlDirective } from './form-control.directive';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,10 +17,12 @@ import { FormControlDirective } from './form-control.directive';
     HeaderComponent,
     FooterComponent,
     CustomFormComponent,
-    FormControlDirective
+    FormControlDirective,
+
   ],
   imports: [
     BrowserModule,
+    ReactiveFormsModule, 
     AppRoutingModule
   ],
   providers: [],
