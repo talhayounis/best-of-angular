@@ -20,7 +20,6 @@
             <label for="female">Female</label>
             <input type="radio" id="female" name="gender" value="female" formControlName="gender">
           </div>
-          <div *ngIf="form.get('gender')?.hasError('required')" class="error-message">Please select a gender.</div>
         </div>
       
         <div class="form-group">
