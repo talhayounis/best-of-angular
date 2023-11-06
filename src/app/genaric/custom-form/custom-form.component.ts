@@ -9,7 +9,7 @@ export class CustomFormComponent {
 
   constructor(){}
 
-  name:string = 'Talha';
+  name:string = 'Talha Younis';
   ngOnInit(){
 
   }
