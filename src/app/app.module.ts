@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { CustomFormComponent } from './genaric/custom-form/custom-form.component';
 import { FormControlDirective } from './form-control.directive';
 import { ReactiveFormsModule } from '@angular/forms';
+import { DialogComponent } from './genaric/dialog/dialog.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { ReactiveFormsModule } from '@angular/forms';
     FooterComponent,
     CustomFormComponent,
     FormControlDirective,
+    DialogComponent,
 
   ],
   imports: [
