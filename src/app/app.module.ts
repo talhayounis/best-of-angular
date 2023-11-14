@@ -10,6 +10,7 @@ import { CustomFormComponent } from './genaric/custom-form/custom-form.component
 import { FormControlDirective } from './form-control.directive';
 import { ReactiveFormsModule } from '@angular/forms';
 import { DialogComponent } from './genaric/dialog/dialog.component';
+import { LoaderComponent } from './genaric/loader/loader.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { DialogComponent } from './genaric/dialog/dialog.component';
     CustomFormComponent,
     FormControlDirective,
     DialogComponent,
+    LoaderComponent,
 
   ],
   imports: [
