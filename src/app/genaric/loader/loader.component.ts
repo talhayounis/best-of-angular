@@ -8,4 +8,7 @@ import { Component } from '@angular/core';
 export class LoaderComponent {
 
   loaderName: string = "Hold tight, Loading"
+
+  constructor(){}
+  ngOnInit(){}
 }
