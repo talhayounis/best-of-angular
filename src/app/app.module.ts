@@ -11,6 +11,7 @@ import { FormControlDirective } from './form-control.directive';
 import { ReactiveFormsModule } from '@angular/forms';
 import { DialogComponent } from './genaric/dialog/dialog.component';
 import { LoaderComponent } from './genaric/loader/loader.component';
+import { AccordionComponent } from './genaric/accordion/accordion.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { LoaderComponent } from './genaric/loader/loader.component';
     FormControlDirective,
     DialogComponent,
     LoaderComponent,
+    AccordionComponent,
 
   ],
   imports: [
