@@ -12,6 +12,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { DialogComponent } from './genaric/dialog/dialog.component';
 import { LoaderComponent } from './genaric/loader/loader.component';
 import { AccordionComponent } from './genaric/accordion/accordion.component';
+import { DrillsComponent } from './genaric/drills/drills.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { AccordionComponent } from './genaric/accordion/accordion.component';
     DialogComponent,
     LoaderComponent,
     AccordionComponent,
+    DrillsComponent,
 
   ],
   imports: [
