@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class DrillsComponent {
 
+  title: string = "Drill Component";
   constructor(){}
   ngOnInit(){}
 }
