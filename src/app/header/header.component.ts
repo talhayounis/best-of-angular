@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class HeaderComponent {
 
-  title: string = "Header"
+  title: string = "D Header"
   constructor(){}
   ngOnInit(){}
 }
