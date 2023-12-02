@@ -13,6 +13,7 @@ import { DialogComponent } from './genaric/dialog/dialog.component';
 import { LoaderComponent } from './genaric/loader/loader.component';
 import { AccordionComponent } from './genaric/accordion/accordion.component';
 import { DrillsComponent } from './genaric/drills/drills.component';
+import { SimmerComponent } from './genaric/simmer/simmer.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { DrillsComponent } from './genaric/drills/drills.component';
     LoaderComponent,
     AccordionComponent,
     DrillsComponent,
+    SimmerComponent,
 
   ],
   imports: [
