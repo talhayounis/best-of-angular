@@ -9,7 +9,8 @@ export class CustomFormComponent {
 
   constructor(){}
 
-  title:string = 'Talha Younis';
+  title:string = 'Custom Form';
+  subTitle: string = 'Custom form component';
   ngOnInit(){
 
   }
