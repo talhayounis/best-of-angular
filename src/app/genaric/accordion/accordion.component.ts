@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AccordionComponent {
 
   title: string = 'Accordion';
+  subTitle: string = "Accordion sub title"
   constructor(){}
   ngOnInit(){}
 }
