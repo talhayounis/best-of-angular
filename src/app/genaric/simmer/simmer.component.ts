@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class SimmerComponent {
 
   title: string = 'Simmer Component';
+  subTitle: string = 'Simmer Sub Title';
   constructor(){}
   ngOnInit(){}
 }
