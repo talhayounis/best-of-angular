@@ -8,6 +8,8 @@ import { FormGroup, FormBuilder, Validators, FormControl } from '@angular/forms'
 })
 export class HomeComponent {
   title: string = 'Home Component';
+  subTitle: string = 'home sub title';
+  another: any;
   isFormDisabled = false;
   form = new FormGroup({
     name: new FormControl('', [Validators.required, Validators.minLength(2)]),
