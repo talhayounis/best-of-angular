@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
 })
 export class LoaderComponent {
 
-  loaderName: string = "Hold tight, Loading"
+  loaderName: string = "Hold tight, Loading";
   subTitle: string = 'Sub headings';
   constructor(){}
   ngOnInit(){}
