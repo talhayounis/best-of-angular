@@ -7,6 +7,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'best-of-angular';
+  subTitle: string = 'Ap sub title';
   constructor(){}
   ngOnInit(){}
 }
