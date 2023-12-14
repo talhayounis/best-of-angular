@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'best-of-angular';
+  title: string = 'best-of-angular';
   subTitle: string = 'Ap sub title';
   constructor(){}
   ngOnInit(){}
