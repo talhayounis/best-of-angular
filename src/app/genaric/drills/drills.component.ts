@@ -9,6 +9,7 @@ export class DrillsComponent {
 
   title: string = "Drill Component";
   subTitle : string = 'Drill sub title';
+  drillNumber: number = 5;
   constructor(){}
   ngOnInit(){}
 }
