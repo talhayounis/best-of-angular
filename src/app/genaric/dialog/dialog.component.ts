@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class DialogComponent {
   title:string = 'Dialog Component';
   subTitle: string = 'Dialog sub title';
+  dialogNumber: number = 7;
   constructor(){}
   ngOnInit(){}
 }
