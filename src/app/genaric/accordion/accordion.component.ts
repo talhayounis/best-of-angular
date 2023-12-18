@@ -9,6 +9,7 @@ export class AccordionComponent {
 
   title: string = 'Accordion';
   subTitle: string = "Accordion sub title"
+  accordianNumber: number = 9;
   constructor(){}
   ngOnInit(){}
 }
