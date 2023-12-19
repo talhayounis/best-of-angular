@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class FooterComponent {
   title: string = 'footer';
   subTitle: string ='footer sub title';
+  footerNumber: number = 11;
 constructor(){
 
 }
