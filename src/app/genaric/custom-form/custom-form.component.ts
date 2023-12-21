@@ -12,6 +12,7 @@ export class CustomFormComponent {
   title:string = 'Custom Form';
   subTitle: string = 'Custom form component';
   formNumber: number = 13;
+  customArray: any[] = [];
   ngOnInit(){
 
   }
