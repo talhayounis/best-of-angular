@@ -9,6 +9,7 @@ export class DialogComponent {
   title:string = 'Dialog Component';
   subTitle: string = 'Dialog sub title';
   dialogNumber: number = 7;
+  dataArray: any[]= [];
   constructor(){}
   ngOnInit(){}
 }
