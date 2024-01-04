@@ -7,10 +7,6 @@ import { Component } from '@angular/core';
 })
 export class SimmerComponent {
 
-  title: string = 'Simmer Component';
-  subTitle: string = 'Simmer Sub Title';
-  simmirNumber: number = 12;
-  simmirArray: any[] = [];
-  constructor(){}
-  ngOnInit(){}
+  constructor() {}
+  ngOnInit() {}
 }
