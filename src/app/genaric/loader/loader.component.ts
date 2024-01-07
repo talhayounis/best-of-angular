@@ -7,10 +7,6 @@ import { Component } from '@angular/core';
 })
 export class LoaderComponent {
 
-  loaderName: string = "Hold tight, Loading";
-  subTitle: string = 'Sub headings';
-  numberOfSection: number = 2;
-  loaderArray: any[] = [];
   constructor(){}
   ngOnInit(){}
 }
