@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class LoaderComponent {
 
   newVal: any = "AnyThing";
+  newArrayData: any[] = ['A','B','C'];
   constructor(){}
   ngOnInit(){}
 }
