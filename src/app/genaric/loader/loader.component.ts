@@ -9,6 +9,10 @@ export class LoaderComponent {
 
   newVal: any = "AnyThing";
   newArrayData: any[] = ['A','B','C'];
+
   constructor(){}
   ngOnInit(){}
+  getLatest(){
+    return 'Latest Data'
+  }
 }
