@@ -9,6 +9,7 @@ export class LoaderComponent {
 
   newVal: any = "AnyThing";
   newArrayData: any[] = ['A','B','C'];
+  private banah: string = "Banah";
 
   constructor(){}
   ngOnInit(){}
