@@ -10,6 +10,7 @@ export class DialogComponent {
   subTitle: string = 'Dialog sub title';
   dialogNumber: number = 7;
   dataArray: any[]= [];
+  dataBricks: any[]=[];
   constructor(){}
   ngOnInit(){}
 }
