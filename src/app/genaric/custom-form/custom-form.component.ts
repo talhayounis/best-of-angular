@@ -13,6 +13,7 @@ export class CustomFormComponent {
   subTitle: string = 'Custom form component';
   formNumber: number = 13;
   customArray: any[] = [];
+  randomNumber: number = 3;
   ngOnInit(){
 
   }
