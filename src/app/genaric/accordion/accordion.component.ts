@@ -10,6 +10,7 @@ export class AccordionComponent {
   title: string = 'Accordion';
   subTitle: string = "Accordion sub title"
   accordianNumber: number = 9;
+  randomNumber: number = 787;
   constructor(){}
   ngOnInit(){}
 }
