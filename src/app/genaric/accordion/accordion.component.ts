@@ -12,6 +12,7 @@ export class AccordionComponent {
   accordianNumber: number = 9;
   randomNumber: number = 787;
   randomArray: any[]=[1,2,3,4];
+  anom: string = "Anom";
   constructor(){}
   ngOnInit(){}
 }
