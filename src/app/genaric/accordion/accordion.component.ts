@@ -13,6 +13,7 @@ export class AccordionComponent {
   randomNumber: number = 787;
   randomArray: any[]=[1,2,3,4];
   anom: string = "Anom";
+  copuchino: string = "A";
   constructor(){}
   ngOnInit(){}
 }
