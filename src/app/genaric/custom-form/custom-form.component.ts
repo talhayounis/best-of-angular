@@ -14,6 +14,7 @@ export class CustomFormComponent {
   formNumber: number = 13;
   customArray: any[] = [];
   randomNumber: number = 3;
+  capOne = 'Lets do that for sure';
   ngOnInit(){
 
   }
